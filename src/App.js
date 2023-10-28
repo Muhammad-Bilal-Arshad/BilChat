@@ -11,13 +11,7 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 try {
   console.log('Initializing Firebase...');
   firebase.initializeApp({
-    apiKey: "AIzaSyAHH6yR8mDEbKxWOhfR5FodAYeJjI0rDqI",
-    authDomain: "bilchat-15c21.firebaseapp.com",
-    projectId: "bilchat-15c21",
-    storageBucket: "bilchat-15c21.appspot.com",
-    messagingSenderId: "516791857222",
-    appId: "1:516791857222:web:2bcb5eb1b74e87e1cd5a47",
-    measurementId: "G-8VYPP39JHT"
+    your own configurations
   });
   console.log('Firebase initialized successfully.');
 } catch (error) {
